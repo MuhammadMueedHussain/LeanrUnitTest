@@ -1,6 +1,6 @@
 name: Publish to App Center
 permissions:
-  contents: read
+  contents: read-all
 on:
   push:
     branches:
