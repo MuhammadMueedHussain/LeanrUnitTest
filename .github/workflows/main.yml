@@ -28,7 +28,7 @@ jobs:
       - name: Upload to App Center
         uses: r0adkll/upload-appcenter-release@v1
         with:
-          app_name: ${{ samurai-android }}
+          app_name: ${{'samurai-android'}}
           token: ${{ secrets.APP_CENTER_API_TOKEN }}
           file: app/build/outputs/apk/release/app-release.apk
           group: Collaborators
