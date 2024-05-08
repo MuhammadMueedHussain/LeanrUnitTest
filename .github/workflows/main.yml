@@ -1,3 +1,4 @@
+
 name: Publish to App Center
 permissions:
   contents: write
