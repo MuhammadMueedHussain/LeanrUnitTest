@@ -27,7 +27,7 @@ jobs:
           # Your script/command to increment version number
 
       - name: Upload to App Center
-        uses: r0adkll/upload-appcenter-release@v1
+        uses: wzieba/AppCenter-Github-Action@v1
         with:
           app_name: ${{'samurai-android'}}
           token: ${{ secrets.APP_CENTER_API_TOKEN }}
